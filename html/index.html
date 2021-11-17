@@ -5,76 +5,79 @@
         <meta name="description" content="My Resume Website">
         <meta name="author" content="Cuc Nguyen">
         <meta name="country" content="Vietnam">
+        <link rel="stylesheet" href="style.css">
         <title>Cuc Nguyen Resume</title>
-        <style>
-            img {
-                width: 100px;
-                border-radius: 50px;
-                float: left;
-                margin-right: 10px;
-            }
-
-            .username {
-                font-weight: bold;
-            }
-
-        </style>
     </head>
     <body>
-        <h1>My Resume</h1>
-        <img src="images/cuc.jpg" alt="My photo">
-        <p class="username">@cucnguyen</p>
-        <p><em>I love to study HTML</em></p> 
-        <br>
-        <br>
-        <hr>
-        <h2>Contact information</h2>
-        <p><em>I am working in the IT company.</em></p> 
-        <ul>
-            <li><strong>Fullname:</strong> Cuc Nguyen</li>
-            <li><strong>Country:</strong> Vietnam</li>
-        </ul>
-        <hr>
-        <h2>Education</h2>
-        <ol>
-            <li>Nguyen Huu Huan Highschool</li>
-            <li>Saigon University</li>
-            <li>Sakura Japanese Center</li>
-        </ol>
-        <hr>
-        <h2>Scores</h2>
-        <table border="1">
-            <tr>
-                <th rowspan="2"></th>
-                <th colspan="2">Math</th>
-                <th rowspan="2">Physics</th>
-                <th rowspan="2">IT</th>
-            </tr>
-            <tr>
-                <th>Math 1</th>
-                <th>Math 2</th>
-            </tr>
-            <tr>
-                <th>2019</th>
-                <td>8</td>
-                <td>0</td>
-                <td>9</td>
-                <td>10</td>
-            </tr>
-            <tr>
-                <th>2020</th>
-                <td>8</td>
-                <td>0</td>
-                <td>9</td>
-                <td>10</td>
-            </tr>
-            <tr>
-                <th>2021</th>
-                <td>8</td>
-                <td>0</td>
-                <td>8</td>
-                <td>8</td>
-            </tr>
-        </table>
+        <h1 id="menu_text">My Resume</h1>
+        <nav>
+            <a href="#about" class="menu_left">About</a>
+            <a href="#education" class="menu_left">Education</a>
+            <a href="#score" class="menu_left">Score</a>
+            <a href="#social" class="menu_right">Social media</a>
+        </nav>
+        <div id="flex_container">
+            <div id="left_side">
+                <img src="images/cuc.jpg" alt="My photo" >
+                <p class="username">@cucnguyen</p>
+                <p><em>Hi there! I'm Huong Cuc. I love learning new things, especially love to support people. I am learning about the knowledge related to programming languages to help increase the work efficiency of the development team.</em></p> 
+                <br>
+                <br>
+                <h2 id="about">About me</h2>
+                <p><em>I am working in the IT company.</em></p> 
+                <ul>
+                    <li><strong>Full name:</strong> Cuc Nguyen</li>
+                    <li><strong>Country:</strong> Vietnam</li>
+                </ul>
+                <h2 id="education">Education</h2>
+                <ol>
+                    <li>Nguyen Huu Huan Highschool</li>
+                    <li>Saigon University</li>
+                    <li>Sakura Japanese Center</li>
+                </ol>
+            </div>
+            <div id="right_side">
+                <h2 id="score">Scores</h2>
+                <table>
+                    <tr>
+                        <th rowspan="2"></th>
+                        <th colspan="2">Math</th>
+                        <th rowspan="2">Physics</th>
+                        <th rowspan="2">IT</th>
+                    </tr>
+                    <tr>
+                        <th>Math 1</th>
+                        <th>Math 2</th>
+                    </tr>
+                    <tr>
+                        <th>2019</th>
+                        <td>8</td>
+                        <td>0</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <th>2020</th>
+                        <td>8</td>
+                        <td>0</td>
+                        <td>9</td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <th>2021</th>
+                        <td>8</td>
+                        <td>0</td>
+                        <td>8</td>
+                        <td>8</td>
+                    </tr>
+                </table>
+                <h2 id="social">Social Media</h2>
+                <p>Youtube:<a href="https://www.youtube.com/watch?v=lIcaZkC8r8Q">Youtube</a></p>
+                <p>Facebook: <a href="https://www.facebook.com/akaikutsu23">Huong Cuc</a></p>
+            </div>
+        </div>
+        <footer>
+            Created by Huong Cuc - <a href="mailto:cucnguyen1989@gmail.com">Email me</a>
+        </footer>
     </body>
 </html>
