@@ -61,32 +61,6 @@ footer a {
     color: white;
 }
 
-table {
-    border: 1;
-}
-
-/* Styling the table */
-table {
-    border-collapse: collapse;
-}
-  
-table td, table th {
-    border: 1px solid #ddd;
-    padding: 8px;
-}
-  
-table tr:nth-child(even){background-color: #f2f2f2;}
-  
-table tr:hover {background-color: #ddd;}
-  
-table th {
-    padding-top: 12px;
-    padding-bottom: 12px;
-    text-align: left;
-    background-color: #1abc9c;
-    color: white;
-}
-
 .course_item {
      /* width: 33%;
      float: left; */
@@ -130,25 +104,12 @@ table th {
     flex: 50%;
 }
 }
-/* @media(max-width: 400px) {
-    #left_side {
-        flex: 100%;
-    }
- 
-    #right_side {
-        flex: 100%;
-    }
-
-    #flex_container {
-        flex-wrap: wrap;
-    }
-} */
-
 
 .avar_img {
-    width: 100px;
+    width: 150px;
     border-radius: 50px;
     float: left;
     margin-right: 10px;
 }
+
     
